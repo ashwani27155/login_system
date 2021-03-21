@@ -6,13 +6,14 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Ashwani kumar",
+  "author": "Ashwani",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1"
+    "express": "*",
+    "express-handlebars": "*",
+    "mongoose": "*"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "*"
   }
 }
