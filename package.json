@@ -9,8 +9,10 @@
   "author": "Ashwani",
   "license": "ISC",
   "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
     "express": "*",
     "express-handlebars": "*",
+    "handlebars": "^4.7.7",
     "mongoose": "*"
   },
   "devDependencies": {
