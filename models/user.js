@@ -1,6 +1,9 @@
 const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 const userSchema=new Schema({
+    facebook:{
+        type:String
+    },
     firstname:{
         type:String
     },
@@ -23,7 +26,7 @@ const userSchema=new Schema({
         type:String
     },
     online:{
-        type:boolean,
+        type:Boolean,
         default:false
     },
     wallet:{
