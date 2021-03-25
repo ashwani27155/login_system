@@ -1,4 +1,6 @@
-<form action="/contactus" method="POST">
+<div class="row">
+  <div class="col-sm-4">
+    <form action="/contactus" method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1" class="form-label">FullName</label>
     <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Please enter your fullname" required>
@@ -8,9 +10,11 @@
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your mail"aria-describedby="emailHelp" required>
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
-  <div class="mb-3">
-    <label for="message" class="form-label">Message</label>
-    <input type="text" name="message" class="form-control" id="message" placeholder="Type your message" required>
-  </div>
+ <div class="mb-3">
+  <label for="message" class="form-label">Message</label>
+  <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+</div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+  </div>
+</div>
